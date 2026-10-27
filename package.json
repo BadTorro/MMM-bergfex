@@ -2,11 +2,6 @@
   "name": "mmm-bergfex",
   "version": "1.0.0",
   "description": "MagicMirror Module to show snow reports from bergfex.at",
-  "main": "MMM-bergfex.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FatTony123/MMM-bergfex.git"
-  },
   "keywords": [
     "Bergfex",
     "weather",
@@ -16,14 +11,24 @@
     "skiing",
     "snowboarding"
   ],
-  "author": "FatTony123",
-  "license": "Apache-2.0",
+  "homepage": "https://github.com/FatTony123/MMM-bergfex#readme",
   "bugs": {
     "url": "https://github.com/FatTony123/MMM-bergfex/issues"
   },
-  "homepage": "https://github.com/FatTony123/MMM-bergfex#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FatTony123/MMM-bergfex.git"
+  },
+  "license": "Apache-2.0",
+  "author": "FatTony123",
+  "type": "commonjs",
+  "main": "MMM-bergfex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.5",
     "request": "^2.88.2"
-  }
+  },
+  "devDependencies": {}
 }
